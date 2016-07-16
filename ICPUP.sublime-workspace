@@ -1,0 +1,1333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"name",
+				"name_str"
+			],
+			[
+				"Star",
+				"StartWorker"
+			],
+			[
+				"con",
+				"content_length"
+			],
+			[
+				"down",
+				"download_center"
+			],
+			[
+				"video_down",
+				"video_download_queue"
+			],
+			[
+				"fil",
+				"file_size_txt"
+			],
+			[
+				"vi",
+				"video_detail"
+			],
+			[
+				"page_num",
+				"page_num_queue"
+			],
+			[
+				"priori",
+				"priority_queue"
+			],
+			[
+				"video_detail",
+				"video_detail_queue"
+			],
+			[
+				"video_item",
+				"video_item_panel"
+			],
+			[
+				"video",
+				"video_item_panel"
+			],
+			[
+				"search",
+				"video_search_queue"
+			],
+			[
+				"seac",
+				"search_worker"
+			],
+			[
+				"sea",
+				"search_worker"
+			],
+			[
+				"page",
+				"page_number"
+			],
+			[
+				"speed",
+				"speed_test"
+			],
+			[
+				"b",
+				"box_sizer"
+			],
+			[
+				"ite",
+				"item_size"
+			],
+			[
+				"item",
+				"item_name"
+			],
+			[
+				"Video",
+				"VideoInfoPanel"
+			],
+			[
+				"SetB",
+				"SetBackgroundColour"
+			],
+			[
+				"res",
+				"res_id"
+			],
+			[
+				"downl",
+				"download_url"
+			],
+			[
+				"rand",
+				"random_color_bmp"
+			],
+			[
+				"Set",
+				"SetBackgroundColour"
+			],
+			[
+				"poster",
+				"poster1"
+			],
+			[
+				"pos",
+				"poster_3"
+			],
+			[
+				"resource",
+				"resource_dir"
+			],
+			[
+				"autho",
+				"author"
+			],
+			[
+				"Static",
+				"StaticBitmap"
+			],
+			[
+				"ALIGN",
+				"ALIGN_CENTER_VERTICAL"
+			],
+			[
+				"open",
+				"open_in_folder"
+			],
+			[
+				"_dir_",
+				"_dir_btn"
+			],
+			[
+				"EVT",
+				"EVT_BUTTON"
+			],
+			[
+				"info",
+				"video_info"
+			],
+			[
+				"lecture",
+				"lecture_info"
+			],
+			[
+				"User",
+				"UserAgent"
+			],
+			[
+				"course",
+				"course_result"
+			],
+			[
+				"sc",
+				"score_list"
+			],
+			[
+				"user",
+				"user_info"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"class",
+				"classify_course"
+			],
+			[
+				"dirty",
+				"dirty_course_list"
+			],
+			[
+				"_get",
+				"_get_single_page"
+			],
+			[
+				"Use",
+				"UserAgent"
+			],
+			[
+				"U",
+				"UserAgent"
+			],
+			[
+				"Ch",
+				"CheckPassword"
+			],
+			[
+				"pass",
+				"password_text"
+			],
+			[
+				"AL",
+				"ALIGN_CENTER"
+			],
+			[
+				"Al",
+				"ALIGN_CENTER"
+			],
+			[
+				"Stat",
+				"StaticText"
+			],
+			[
+				"A",
+				"ALIGN_CENTER"
+			],
+			[
+				"B",
+				"BORDER_NONE"
+			],
+			[
+				"cop",
+				"copyright_text"
+			],
+			[
+				"school_",
+				"school_msg"
+			],
+			[
+				"school",
+				"school_text"
+			],
+			[
+				"author_",
+				"author_name"
+			],
+			[
+				"author",
+				"author_text"
+			],
+			[
+				"wecha",
+				"wechat_text"
+			],
+			[
+				"mail_",
+				"mail_addr"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"img",
+				"img_dir"
+			],
+			[
+				"CEN",
+				"ALIGN_CENTER"
+			],
+			[
+				"Top",
+				"TopStateBar"
+			],
+			[
+				"bir",
+				"birth_gender_sizer"
+			],
+			[
+				"selec",
+				"selected_color"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"MY",
+				"MyFrameNAME"
+			],
+			[
+				"C",
+				"ALIGN_CENTER_HORIZONTAL"
+			],
+			[
+				"MyFra",
+				"MyFrame"
+			],
+			[
+				"tea",
+				"teacher_select_panel"
+			],
+			[
+				"time",
+				"time_select_panel"
+			],
+			[
+				"My",
+				"MyFrameNAME"
+			],
+			[
+				"end",
+				"end_time"
+			],
+			[
+				"pa",
+				"places"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"def",
+				"defs	Method"
+			],
+			[
+				"get",
+				"get_score"
+			],
+			[
+				"save",
+				"save_html"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"auth",
+				"auth_cookie"
+			],
+			[
+				"jwxt_",
+				"jwxt_host"
+			],
+			[
+				"cas",
+				"cas_host"
+			],
+			[
+				"cas_",
+				"cas_jwxt"
+			],
+			[
+				"ipv6",
+				"ipv6_soup"
+			],
+			[
+				"data",
+				"data_list"
+			],
+			[
+				"intra",
+				"ipv4_intranet"
+			],
+			[
+				"_ch",
+				"_check_intranet"
+			],
+			[
+				"_che",
+				"_check_network_enable"
+			],
+			[
+				"v4",
+				"v4_time_hour"
+			],
+			[
+				"v4_tim",
+				"v4_time_min"
+			],
+			[
+				"v6",
+				"v6_flow_mbyte"
+			],
+			[
+				"v4_",
+				"v4_flow_byte"
+			],
+			[
+				"login",
+				"login"
+			],
+			[
+				"ipv4",
+				"ipv4_enable"
+			],
+			[
+				"s",
+				"strip"
+			],
+			[
+				"su",
+				"sup	Tag"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"App",
+				"Append"
+			],
+			[
+				"menu",
+				"menu2"
+			],
+			[
+				"able",
+				"ableCourse"
+			],
+			[
+				"Selec",
+				"SelectedPanel"
+			],
+			[
+				"want",
+				"wantPanel"
+			],
+			[
+				"Sele",
+				"SelectPanel"
+			],
+			[
+				"Se",
+				"SelectPanel"
+			],
+			[
+				"ALIGN_C",
+				"ALIGN_CENTER"
+			],
+			[
+				"sel",
+				"selectedman"
+			],
+			[
+				"cap",
+				"capacity"
+			],
+			[
+				"wante",
+				"wantAble"
+			],
+			[
+				"Able",
+				"AbleId"
+			],
+			[
+				"coure",
+				"course_name"
+			],
+			[
+				"Ab",
+				"AbleId"
+			],
+			[
+				"SetItem",
+				"SetItemData"
+			],
+			[
+				"Get",
+				"GetEventObject"
+			],
+			[
+				"index",
+				"indexPage"
+			],
+			[
+				"get_",
+				"get_text"
+			],
+			[
+				"find",
+				"find_all"
+			],
+			[
+				"cour",
+				"courseList"
+			],
+			[
+				"couse",
+				"courseList"
+			],
+			[
+				"cous",
+				"courseList"
+			],
+			[
+				"Lo",
+				"Logout"
+			],
+			[
+				"Course",
+				"courseId"
+			],
+			[
+				"Select",
+				"SelectCourse"
+			],
+			[
+				"or",
+				"orderlist"
+			],
+			[
+				"Add",
+				"AddMany"
+			],
+			[
+				"log",
+				"login_btn"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "chapter_2/note.md",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/c.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"pyton",
+				"Set Syntax: Python"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"l",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ipyt",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"mak",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ipy",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"side",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"emmet",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"py",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ta",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"che",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"chea",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"makr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ip",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"git comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ipyth",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"emmt",
+				"Set Syntax: Emmet"
+			],
+			[
+				"fil",
+				"Browse Mode: Current file or project"
+			],
+			[
+				"File b",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"git branch",
+				"Git: New Branch"
+			],
+			[
+				"git commit c",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"gitflow",
+				"Git-flow: Feature Finish"
+			],
+			[
+				"git",
+				"Git: Help"
+			],
+			[
+				"dird",
+				"Browse Mode: Left Sidebar"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+			"view.sel()[1]",
+			"view.sel()[0]",
+			"view.sel()",
+			"view.run_command(\"moment\")",
+			"a.join(\"sd\")",
+			"a = \"23\"",
+			"\"\".join(\"d\", \"d\")",
+			"os.listdir(os.getcwd())",
+			"os.path.listdir(os.getcwd())",
+			"import os",
+			"\"2016_07_03_08_22_55_0.jpg\"[-14:-12]",
+			"\"2016_07_03_08_22_55_0.jpg\"[-11:-9]",
+			"\"2016_07_03_08_22_55_0.jpg\"[-9:-11]",
+			"\"2016_07_03_08_22_55_0.jpg\"[-7:-6]",
+			"'![{}]({} \"{}\")'.format(1, 2, 3)",
+			"view.run_command('moment')",
+			"view.run_command('Moment')",
+			"view.run_command('example')",
+			"view.run_command('iLife')",
+			"v = sublime.View()",
+			"sublime.View().file_name()",
+			"import sublime",
+			"os.path.getdir",
+			"E:\\MyLife\\2016-7-3\\2016_07_03.md",
+			"os.listdir(r\"E:/MyLife/2016-7-3/\")",
+			"os.listdir(r\"E:\\MyLife\\2016-7-3\\\")",
+			"os.listdir(\"E:\\MyLife\\2016-7-3\\\")",
+			"os.listdir(\"E:\\MyLife\\2016-7-3\\2016_07_03.md\")",
+			"os.getcwd()",
+			"import os",
+			"print(\"ok\")",
+			"peint(\"ok\")",
+			"enumrate",
+			"range(1,3)",
+			"str(2)",
+			"print('\\t')",
+			"print('\\a')",
+			"print '\\a'",
+			"pull",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"print('d')",
+			"print 'd'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/SelfLearn/Python/answer/ICPUP"
+	],
+	"file_history":
+	[
+		"/E/SelfLearn/Python/answer/ICPUP/ICPUP.sublime-project",
+		"/E/SelfLearn/Python/answer/ICPUP/.gitignore",
+		"/E/Ubox/PRD.md",
+		"/E/Ubox/相关知识/动画.md",
+		"/E/Ubox/需求分析.md",
+		"/E/Ubox/ubox.sublime-workspace",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Requirement_analysis.sublime-snippet",
+		"/E/MyLife/2016-7-15/2016-7-15.md",
+		"/E/MyLife/2016-7-14/2016-7-14.md",
+		"/E/SelfLearn/Python/answer/ICPUP/README.md",
+		"/C/ws/.ssh/github.pub",
+		"/E/MyLife/2016-7-8/2016-7-8.md",
+		"/E/SelfLearn/Python/OCW/jisuanjikexue/课程.txt",
+		"/C/Program Files/Axure/Axure RP 8/AxureRP8.exe",
+		"/E/MyLife/2016-7-5/2016-7-5.md",
+		"/E/MyLife/2016-7-4/2016_07_04.md",
+		"/E/MyLife/2016-7-3/2016_07_03.md",
+		"/E/MyLife/2016-7-7/2016-7-7.md",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/iLife/moment.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/iLife.sublime-snippet",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/iLife/Context.sublime-menu",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/Default/open_in_browser.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/Default/copy_path.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/OmniMarkupPreviewer/Context.sublime-menu",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/Context.sublime-menu",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/Default/block.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/Default/echo.py",
+		"/E/temp/DGUTDesktop/main_gui.py",
+		"/E/temp/DGUTDesktop/download_center/download_center.py",
+		"/E/temp/DGUTDesktop/video_download/niczy_client.py",
+		"/E/temp/DGUTDesktop/video_download/niczy_widgets.py",
+		"/E/temp/DGUTDesktop/video_download/pwk_widgets_lib.py",
+		"/E/temp/DGUTDesktop/tool.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/pengwk_life.sublime-snippet",
+		"/C/Users/wk/Desktop/eight.asm",
+		"/C/Program Files/NANA-bt2.1/dht.dat",
+		"/C/Users/wk/Downloads/lcd汉字取模软件/字模软件说明.txt",
+		"/C/Users/wk/Downloads/自动售货机.md",
+		"/C/Program Files/wxPython3.0 Docs and Demos/demo/MDIDemo.py",
+		"/E/temp/Niczy/niczy_client.py",
+		"/E/temp/DGUTDesktop/down_center/down_center.py",
+		"/E/temp/DGUTDesktop/down_center/__init__.py",
+		"/C/Python27/Lib/site-packages/gui2py/README.md",
+		"/E/temp/Niczy/main_gui.py",
+		"/E/temp/DGUTDesktop/DGUTDesktop.sublime-project",
+		"/E/temp/DGUTDesktop/__init__.py",
+		"/C/Python27/lib/site-packages/requests/structures.py",
+		"/C/Users/wk/GitBook/Library/Import/wxpython/整体设计.md",
+		"/E/temp/DGUTDesktop/.gitignore",
+		"/E/temp/Niczy/widgets.py",
+		"/E/temp/Niczy/develop_one_dir.spec",
+		"/E/temp/Niczy/development.spec",
+		"/E/temp/Niczy/version.txt",
+		"/E/temp/Niczy/build/development/pyimod00_crypto_key.py",
+		"/E/temp/Niczy/build/production/warnproduction.txt",
+		"/E/temp/Niczy/main_gui.spec",
+		"/E/temp/Niczy/resource.py",
+		"/E/temp/Niczy/production.spec",
+		"/C/Users/wk/AppData/Local/Temp/_MEI44242/Microsoft.VC90.CRT.manifest",
+		"/E/temp/Niczy/file_version_info.txt",
+		"/E/temp/Niczy/build/main_gui/warnmain_gui.txt",
+		"/E/temp/Niczy/.gitignore",
+		"/C/Users/wk/OneDrive/W/QiangGui/note/python笔记.md",
+		"/C/Users/wk/OneDrive/W/QiangGui/clients.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/main_gui.py",
+		"/E/temp/Niczy/tool.py",
+		"/C/Python27/lib/site-packages/wx-3.0-msw/wx/_controls.py",
+		"/C/Python27/lib/subprocess.py",
+		"/C/Users/wk/OneDrive/W/Niczy/niczy_client.py",
+		"/C/Users/wk/OneDrive/W/Niczy/widgets.py",
+		"/E/temp/Niczy/common_widgets.py",
+		"/C/Python27/Lib/site-packages/boa-constructor/PropEdit/Enumerations.py",
+		"/C/Python27/Lib/site-packages/boa-constructor/Inspector.py",
+		"/C/Python27/Lib/site-packages/boa-constructor/Boa.py",
+		"/C/Users/wk/.boa-constructor/prefs.rc.py",
+		"/E/temp/Niczy/a.version",
+		"/C/Python27/Lib/site-packages/PyInstaller/utils/cliutils/grab_version.py",
+		"/E/temp/Niczy/build/main_gui/main_gui.exe.manifest",
+		"/C/Users/wk/OneDrive/W/Niczy/main_gui.py",
+		"/C/Users/wk/OneDrive/W/Niczy/<string>",
+		"/C/Users/wk/OneDrive/W/Niczy/tool.py",
+		"/C/Users/wk/Desktop/code/myproject/test.py",
+		"/C/Users/wk/OneDrive/W/Niczy/niczy.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/useragent.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/helper.py",
+		"/C/Users/wk/OneDrive/shadowsock-config.json",
+		"/C/Users/wk/OneDrive/shadowsock-config.js",
+		"/C/Users/wk/OneDrive/W/QiangGui/auth.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/note/wx笔记.md",
+		"/C/Users/wk/OneDrive/W/QiangGui/笔记.md",
+		"/C/Users/wk/AppData/Local/Temp/Rar$DIa0.445/gw-redsocks.conf",
+		"/C/Users/wk/OneDrive/W/Niczy/gui.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/dialog.py",
+		"/E/temp/log.txt",
+		"/E/temp/download.txt",
+		"/C/Users/wk/Downloads/jquery.speedtest.min.js",
+		"/C/Users/wk/OneDrive/W/QiangGui/sb.mp4",
+		"/C/Users/wk/OneDrive/W/QiangGui/hello.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/teachers_info.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/dirty_course_list.json",
+		"/C/Users/wk/Desktop/31_.htm",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/failed/qiang.py",
+		"/C/Python27/Lib/site-packages/wx-3.0-msw/wx/gizmos.py",
+		"/C/Python27/Lib/site-packages/wx-3.0-msw/wx/webkit.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/avatar_process.py",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-build",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Program Files/wxPython3.0 Docs and Demos/demo/GridSimple.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/failed/toolbook.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/login.py",
+		"/C/Users/wk/Downloads/radiobutton_sample.py",
+		"/C/Program Files/Internet Explorer/iexplore.exe",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/qiang.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/new_design.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/QiangGui.sublime-workspace",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/wx笔记.md",
+		"/C/Users/wk/OneDrive/W/QiangGui/.gitignore",
+		"/C/Program Files/wxPython3.0 Docs and Demos/demo/Main.py",
+		"/C/Python27/lib/site-packages/wx-3.0-msw/wx/_core.py",
+		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/data_gen.py",
+		"/C/Users/wk/OneDrive/W/miscellaneous/willpower_split.py",
+		"/C/ws/.gitconfig",
+		"/C/Users/wk/.gitconfig",
+		"/C/Users/wk/OneDrive/W/wxpython/mycode/flow.py",
+		"/C/Users/wk/Desktop/code/myproject/gxk.md",
+		"/C/Users/wk/Desktop/code/myproject/xuanke.py",
+		"/C/Users/wk/Desktop/code/try/xcjc.py"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 137.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"wx.Call",
+			"video_search_queue",
+			"VideoItemPanel",
+			" )])",
+			"([()])",
+			"GenButton",
+			"None",
+			"queue",
+			"        \n",
+			"filesize",
+			"align",
+			"studentInfo",
+			" +",
+			"str_",
+			"index",
+			"cookies",
+			"    \n",
+			"                        \n",
+			"处理课程选择事件，删除选择课程，更新到DoSelectPanel",
+			"胡",
+			"老师信息",
+			"pic",
+			"EVT_GRID_LABEL_LEFT_CLICK",
+			"wx.grid",
+			"时获得。",
+			">\n",
+			"type的值",
+			"以指定像素为单位，进行模糊处理",
+			"image",
+			" \n",
+			"Center",
+			"pengwk",
+			"page",
+			"Nice",
+			"dgut",
+			"kvs",
+			"elif",
+			"else",
+			"NetworkManager",
+			"raw_html",
+			"True",
+			":",
+			"Change",
+			"Change Libr",
+			"Count",
+			"Change",
+			"Change Libr",
+			"所有者可以读写，用户组，其他用户只能读，新建文件夹的默认权限是0755，拥有者可以读写执行，用户组和其他用户可以读和执行。",
+			"port-map",
+			"dht",
+			"allCourse",
+			"Append",
+			"Beauti",
+			"tyxk_index",
+			"casurl",
+			"baseurl",
+			"MyFrame",
+			"iframe",
+			"pub_time",
+			"201400004144",
+			"cjPic",
+			"jpg",
+			"功能",
+			"timeer",
+			"受"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"self.allCourse",
+			"cas_base_url",
+			"tyxk_base_url",
+			"收"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chapter_2/note.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 255.0
+	},
+	"output.find_results":
+	{
+		"height": 256.0
+	},
+	"output.git":
+	{
+		"height": 256.0
+	},
+	"output.git-commit":
+	{
+		"height": 346.0
+	},
+	"output.git-init":
+	{
+		"height": 225.0
+	},
+	"output.markdown":
+	{
+		"height": 232.0
+	},
+	"output.mde":
+	{
+		"height": 546.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 178.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "ICPUP.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\wk\\AppData\\Roaming\\Sublime Text 3\\Packages\\iLife\\moment.py"
+			],
+			[
+				"nic",
+				"Niczy\\niczy_client.py"
+			],
+			[
+				"too",
+				"DGUTDesktop\\tool.py"
+			],
+			[
+				"login",
+				"login.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\wk\\OneDrive\\W\\wxpython\\wxpython.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
