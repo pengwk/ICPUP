@@ -34,12 +34,15 @@
 - static semantics
 - semantics
 
-意思分别是
-
 在Python中：
 
 - primitive constructs 包含literal 和 infix operator。
-- syntax 指
+- syntax 指那些单词组成句子 well-formed e.g., `2 + 4` vs `2 3`
+- static semantics 定义哪些syntax valid的句子是有意义的 e.g., `3.2/'abc'`会产生static semantics error 即使syntax没问题（`<literal><operator><literal>`）
+- semantics 定义句子意义是什么
+
+#### English grammer 也是这样吗？
+
 
 ## literal什么意思？在Python中那些东西是Literal的？
 

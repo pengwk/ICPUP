@@ -520,10 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "chapter_2/note.md",
+			"file": "chapter_01/note.md",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 1587,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter_01/code.py",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -930,10 +938,13 @@
 	},
 	"expanded_folders":
 	[
-		"/E/SelfLearn/Python/answer/ICPUP"
+		"/E/SelfLearn/Python/answer/ICPUP",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_01",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_2"
 	],
 	"file_history":
 	[
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/ICPUP.sublime-project",
 		"/E/SelfLearn/Python/answer/ICPUP/.gitignore",
 		"/E/Ubox/PRD.md",
@@ -1060,8 +1071,7 @@
 		"/C/Users/wk/.gitconfig",
 		"/C/Users/wk/OneDrive/W/wxpython/mycode/flow.py",
 		"/C/Users/wk/Desktop/code/myproject/gxk.md",
-		"/C/Users/wk/Desktop/code/myproject/xuanke.py",
-		"/C/Users/wk/Desktop/code/try/xcjc.py"
+		"/C/Users/wk/Desktop/code/myproject/xuanke.py"
 	],
 	"find":
 	{
@@ -1170,19 +1180,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "chapter_2/note.md",
+					"file": "chapter_01/note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								635,
+								635
 							]
 						],
 						"settings":
@@ -1191,10 +1201,38 @@
 							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter_01/code.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1324,7 +1362,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
