@@ -520,15 +520,21 @@
 	"buffers":
 	[
 		{
-			"file": "chapter_01/note.md",
 			"settings":
 			{
-				"buffer_size": 1587,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "chapter_01/code.py",
+			"file": "chapter_2/note.md",
+			"settings":
+			{
+				"buffer_size": 1938,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"settings":
 			{
 				"buffer_size": 0,
@@ -667,10 +673,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Snippet: ",
+		"height": 58.0,
+		"last_filter": "Snippet: !",
 		"selected_items":
 		[
+			[
+				"Snippet: !",
+				"Snippet: #!/usr/bin/env"
+			],
 			[
 				"Snippet: ",
 				"Snippet: Markdown Hyperlink"
@@ -939,11 +949,12 @@
 	"expanded_folders":
 	[
 		"/E/SelfLearn/Python/answer/ICPUP",
-		"/E/SelfLearn/Python/answer/ICPUP/chapter_01",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_2"
 	],
 	"file_history":
 	[
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_01/note.md",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_01/code.py",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/ICPUP.sublime-project",
 		"/E/SelfLearn/Python/answer/ICPUP/.gitignore",
@@ -1069,9 +1080,7 @@
 		"/C/Users/wk/OneDrive/W/miscellaneous/willpower_split.py",
 		"/C/ws/.gitconfig",
 		"/C/Users/wk/.gitconfig",
-		"/C/Users/wk/OneDrive/W/wxpython/mycode/flow.py",
-		"/C/Users/wk/Desktop/code/myproject/gxk.md",
-		"/C/Users/wk/Desktop/code/myproject/xuanke.py"
+		"/C/Users/wk/OneDrive/W/wxpython/mycode/flow.py"
 	],
 	"find":
 	{
@@ -1089,6 +1098,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"结果一定是整数（直接取整数部分），但是返回值的类型取决于是否有浮点数的出现",
 			"wx.Call",
 			"video_search_queue",
 			"VideoItemPanel",
@@ -1175,41 +1185,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "chapter_01/note.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								635,
-								635
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 864.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chapter_01/code.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1226,7 +1206,64 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter_2/note.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "E:\\SelfLearn\\Python\\answer\\ICPUP\\chapter_2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1359,9 +1396,9 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
-	"show_tabs": true,
+	"show_tabs": false,
 	"side_bar_visible": false,
 	"side_bar_width": 267.0,
 	"status_bar_visible": true,
