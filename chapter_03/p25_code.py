@@ -9,3 +9,4 @@ for str_num in s.split(","):
     _sum += float(str_num)
 
 print _sum 
+
