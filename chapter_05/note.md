@@ -139,3 +139,6 @@ subtle是紧凑的意思吗？
 
 
 ### statement expression clause keyword operator 是什么关系？
+
+print 是statement
+
