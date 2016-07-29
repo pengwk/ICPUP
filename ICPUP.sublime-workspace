@@ -520,67 +520,20 @@
 	"buffers":
 	[
 		{
+			"file": "chapter_06/note.md",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3557,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "## 关键字\n\n- versus\n- weak static semantic checking\n- high reliability constraints\n- statement\n- Objects\n- Type\n- Expressions\n- Scalar\n- operators\n- value\n- variable\n- assignment\n- reserved word(or keyword)\n- comments\n- straight-line program\n- Indentation\n- nested\n- constant time\n- conputational complexity\n- overload\n- type checking\n- type conversions(type casts)\n- iteration(also called looping)\n- hand-simulating\n- Flow Chart\n- Initializing\n- Concatenation\n\n## 单词\n\n- forewarned \n- vehicle\n- dribs and drabs\n- ulterior purpose\n- undergone\n- incorporating\n- clearly superior\n- remainder\n- either...or..\n- prompt\n- supicious\n- tally the votes in an election\n- intrinsic\n- odd\n- subtle\n- quaint\n- depicted\n- mechanism\n\n\n\n## Python操作符（operator）有哪些？怎么自定义？  \n\n- 算术运算符 `-`、 `+`、 `*`、 `/`、 `//`、 `**` `%` \n- 比较 `>` `<` `>=` `<=` `!=` `<>` `==`\n- 位运算 `>>` `<<` `&` `^` `|` `~`\n\n自定义：\n不能创建新的operator，但是可以overload\n\n\n## overload 怎么自己定义？或者添加新的规则？\n\n\n## 关键字算对象吗？ Object\n\n\n## 类型分为Scalar和non-scalar？ type scalar不可分？什么意思？\n\nscalar 是不可分的，可以看做是atoms of language.\n\nPython's types of scalar objects:\n\n- int\n- float\n- bool\n- None\n\nNon-scalar:\n\n- strings, have internal structure.??\n\n\n#### atom 又是什么鬼？\n\n不可分割，原子\n\nAtoms are the most basic elements of expressions\n\n- Identifier(name)\n- Literals\n- Dict\n- List\n- Set\n- Tuple\n- \n\n\n## 英文Literal代表什么意思？\n\n就是字面的意思，字符串和数字。\n\n也有没有想象力的意思。\n\n## 除法操作符 / 和 // 有什么区别？\n\n根据operator module 中的命名来看\n\n- `/`是float point division，有浮点数就是真除 e.g., 3/2.0 --> 1.5 \n- `//`是floor division(also called integer division)， 结果一定是整数（直接取整数部分），但是返回值的类型取决于是否有浮点数的出现\n\n\n## 快速交换变量的值？ 酷狗的基本面试题\n\n使用多重赋值（multiple assignment）\n\n```python\nx, y, = y, x\n```\n先对右边的表达式进行求值，再赋值。\n\n\n## 计算复杂度 Conputational complexity\n\n存在一个时间常量，程序的运行步骤不随着输入的改变而超过这个数值。\n\n运行时间不会怎长随着输入的变化。\n\nO(X) ...\n\n## sequence type \n\n共享的操作：\n\n- Length e.g., len(\"abc\")\n- indexing e.g, \"abc\"[0]\n- Slicing e.g., \"abc\"[0:2]\n\n#### 那些是sequence types？\n\n- str\n- list\n- tuple\n- unicode\n- bytearray\n- buffer\n- xrange\n",
-			"file": "chapter_2/note.md",
-			"file_size": 2731,
-			"file_write_time": 131132122654801772,
+			"contents": "为什么避税会存在？\n\n地区发展不平衡，资源不平衡\n\n弱的地区，税收无法支持社会正常。\n\n税收主要来源于中小企业，超级大公司的税收直接贡献很少。\n\n弱地区基本无法正常发展，所以选择了投资低回报高的“帮助避税”\n\n他们的支持下法律无法完善，超级大公司量大，税率低，相对于政府的投入而言，回报也高。\n",
 			"settings":
 			{
-				"buffer_size": 1938,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "#!/usr/bin/env\n#_*_ coding: utf-8 _*_\n\n#\n\n\ndef largest_odd(x, y, z):\n    \"\"\"\n    >>> largest_odd(1, 3, 4)\n    3\n    >>> largest_odd(2, 2, 2)\n    No odd!\n    >>> largest_odd(3, 8, 16)\n    3\n    >>> largest_odd(17, 8, 16)\n    17\n    >>> largest_odd(13, 13, 12)\n    13\n    >>> largest_odd(13, 12, 12)\n    13\n    \"\"\"\n    _big, _mid, _small = x, y, z\n\n    if _big % 2 != 0 or _mid % 2 != 0 or _small % 2 != 0:\n        if _big < _mid:\n            _big, _mid = _mid, _big\n\n        if _big < _small:\n            _big, _small = _small, _big\n\n        if _mid < _small:\n            _mid, _small = _small, _mid\n\n        if _big % 2 == 1:\n            print _big\n        elif _mid % 2 == 1:\n            print _mid\n        elif _small % 2 == 1:\n            print _small\n    else:\n        print \"No odd!\"\n\n    return None\n",
-			"file": "chapter_2/p16_code.py",
-			"file_size": 849,
-			"file_write_time": 131132157871170900,
-			"settings":
-			{
-				"buffer_size": 806,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "#!/usr/bin/env\n#_*_ coding: utf-8 _*_\n\n\ntimes = 10\nbefore = 0\nwhile times:\n    now = int(raw_input(\"Please input a integer: \"))\n    if before < now and now % 2 != 0:\n        before, now = now, before\n    times -= 1\nif before % 2 == 0:\n    print \"No odd!\"\nelse:\n    print before\n",
-			"file": "chapter_2/p20_code.py",
-			"file_size": 293,
-			"file_write_time": 131132171504949075,
-			"settings":
-			{
-				"buffer_size": 278,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter_04/note.md",
-			"settings":
-			{
-				"buffer_size": 2533,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter_05/note.md",
-			"settings":
-			{
-				"buffer_size": 2055,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "chapter_02/note.md",
-			"settings":
-			{
-				"buffer_size": 1938,
-				"line_ending": "Windows"
+				"buffer_size": 147,
+				"line_ending": "Windows",
+				"name": "为什么避税会存在？"
 			}
 		}
 	],
@@ -998,18 +951,25 @@
 	],
 	"file_history":
 	[
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Bold and Italic Markers.tmPreferences",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_02/note.md",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/note.md",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/p16_code.py",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/p20_code.py",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_04/note.md",
+		"/E/SelfLearn/Python/answer/ICPUP/chapter_05/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_01/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_03/p25_code.py",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_03/p23_code.py",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_04/p47_code.py",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_04/p36_code.py",
-		"/E/SelfLearn/Python/answer/ICPUP/chapter_02/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_03/note.md",
 		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/python_utf-8.sublime-snippet",
 		"/C/Users/wk/Downloads/wunderlist-20160717-18-09-26.json",
 		"/E/SelfLearn/Python/answer/Guttag_Python_Code/codeForWebSite/Chapter 2/code.py",
 		"/E/SelfLearn/Python/answer/ICPUP/chapter_01/code.py",
-		"/E/SelfLearn/Python/answer/ICPUP/chapter_2/note.md",
 		"/E/SelfLearn/Python/answer/ICPUP/ICPUP.sublime-project",
 		"/E/SelfLearn/Python/answer/ICPUP/.gitignore",
 		"/E/Ubox/PRD.md",
@@ -1118,14 +1078,7 @@
 		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/avatar_process.py",
 		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-build",
 		"/C/Users/wk/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
-		"/C/Program Files/wxPython3.0 Docs and Demos/demo/GridSimple.py",
-		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/failed/toolbook.py",
-		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/login.py",
-		"/C/Users/wk/Downloads/radiobutton_sample.py",
-		"/C/Program Files/Internet Explorer/iexplore.exe",
-		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/qiang.py",
-		"/C/Users/wk/OneDrive/W/QiangGui/gui_code/new_design.py",
-		"/C/Users/wk/OneDrive/W/QiangGui/QiangGui.sublime-workspace"
+		"/C/Program Files/wxPython3.0 Docs and Demos/demo/GridSimple.py"
 	],
 	"find":
 	{
@@ -1235,221 +1188,67 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "chapter_06/note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2418,
+								2418
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
 							"is_init_dirty_state": false,
+							"is_xml": false,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chapter_2/note.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1644,
-								1644
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": true,
-							"is_xml": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3075.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapter_2/p16_code.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 806,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								207,
-								207
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapter_2/p20_code.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								278,
-								278
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapter_04/note.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								561,
-								561
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"is_xml": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 628.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "chapter_05/note.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2055,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1683,
-								1683
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"is_xml": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2886.0,
+						"translation.y": 2352.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "chapter_02/note.md",
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1938,
+						"buffer_size": 147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1937,
-								1937
+								147,
+								147
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
+							"auto_name": "为什么避税会存在？",
+							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+							"is_init_dirty_state": true,
 							"is_xml": false,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 546.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1488,7 +1287,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 255.0
@@ -1561,7 +1360,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\wk\\OneDrive\\W\\wxpython\\wxpython.sublime-project"
+				"E:\\SelfLearn\\Axure RP\\axure_rp.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1582,7 +1381,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": false,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 267.0,
 	"status_bar_visible": false,
 	"template_settings":
