@@ -523,7 +523,15 @@
 			"file": "chapter_06/note.md",
 			"settings":
 			{
-				"buffer_size": 3557,
+				"buffer_size": 4852,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chapter_06/expression.md",
+			"settings":
+			{
+				"buffer_size": 466,
 				"line_ending": "Windows"
 			}
 		},
@@ -1188,7 +1196,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1197,15 +1205,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3557,
+						"buffer_size": 4852,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2418,
-								2418
+								4418,
+								4418
 							]
 						],
 						"settings":
@@ -1217,14 +1225,43 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2352.0,
+						"translation.y": 5544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter_06/expression.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								231
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1251,7 +1288,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
